@@ -21,8 +21,7 @@ public class Primitivedt {
 	    char letter = '\u0052';
 	    System.out.println(letter); 
 	    char l1 = '8';
-	    System.out.println(l1);  // prints 9
-	    	
+	    System.out.println(l1); 	
 	    char l2 = 78;
 	    System.out.println(l2);
 	    
