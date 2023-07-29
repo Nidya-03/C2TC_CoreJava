@@ -1,4 +1,4 @@
-package com.cg.dayone;
+package com.cg.daytwo;
 
 public class Basicsjava {
 
@@ -12,6 +12,8 @@ public class Basicsjava {
 		System.out.println(a%b);//0
 		System.out.println(a/b);//7
 		System.out.println(--b);//2
+		int sum=0;
+		
 	}
 
 }
