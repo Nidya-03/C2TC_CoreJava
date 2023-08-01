@@ -9,14 +9,11 @@ public class Override {
 			 Bank b;
 			 HDFC h;
 			 s=new SBI();
-			 s.Interest();
-			 
+			 s.Interest();	 
 			 b=new Bank();
-			 b.Interest();
-			 
+			 b.Interest();	 
 			// s=new RBI();
-			// s.Intrest();
-			 
+			// s.Intrest();	 
 			b=new SBI();
 			b.Interest();
 			 b=new Bank();
