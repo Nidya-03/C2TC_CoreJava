@@ -5,16 +5,14 @@ public class Bank {
    	  System.out.println("intrest is 6");
    	  
      }
-     
-	
-
 }
 	class SBI extends Bank{
-		void Intrest() {
+		void Interest() {
 		 System.out.println("intrest is 0");
-	 }}
+	 }
+}
 		class HDFC extends Bank{
-			void Intrest() {
+			void Interest() {
 			 System.out.println("intrest is 7");
 		 }
 }

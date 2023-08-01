@@ -1,24 +1,19 @@
 package com.cg.dayseven;
 
 public class Overload {
-	 static void add(int a,int b) {
+	 public int add(int a,int b) {
 		 int c=a+b;
 			System.out.println("Addition of 2 numbers "+c);
+			return c;
 		}
-	 static void add() {
+	 public int add() {
 		 System.out.println("Addition method");
+		return 0;
 	 }
-	static void add(int a,int b,int c) {
+	public int  add(int a,int b,int c) {
 		int d=a+b+c;
 		System.out.println("Addition of 3 numbers "+d);
+		return d;
 	}
 	}
-	class Main1{
-		public static void main(String[] args) {
-			System.out.println(Overload.add());
-			System.out.println(Overload.add(20, 76));
-			System.out.println(Overload.add(20, 76,10));
-			
-
-		}
-}
+	
